@@ -6,19 +6,19 @@ bool tired = true;
 float grade = 2.1f;
 
 //Vars for Calculator functions
-int a = 7;
-int b = 5;
-float c = 9;
-float d = 12;
+int a = 8;
+int b = 9;
+int c = 7;
 
 
 Awawa(name);
 AddCalculator(a, b);
 MinusCalculator(a, b);
 MultiplyCalculator(a, b);
-DivideCalculator(c, d);
+DivideCalculator(a, b);
 IsRich(50);
-
+HighestNumOfTwo(a, b);
+HighestNumOfThree(a, b, c);
 
 void Awawa(string textToSay)
 {
@@ -47,7 +47,7 @@ void MultiplyCalculator(int a, int b)
     
     Console.WriteLine("[Multiply Calc] - Epic calcus between a and b equals " + sum);
 }
-void DivideCalculator(float a, float b)
+void DivideCalculator(int a, int b)
 {
     float sum;
     sum = a / b;
@@ -57,19 +57,55 @@ void DivideCalculator(float a, float b)
 
 void IsRich(int money)
 {
-    Console.WriteLine("You have " + money + " balance");
+    Console.WriteLine("[Is Richer] - You have " + money + " balance");
     if (money >= 100)
     {
-        Console.WriteLine("you're able to buy GTA 6 woooo");
+        Console.WriteLine("[Is Richer] - you're able to buy GTA 6 woooo");
 
     }
     else if (money < 0)
     {
-        Console.WriteLine("Pay your bread back!");
+        Console.WriteLine("[Is Richer] - Pay your bread back!");
 
     }
     else
     {
-        Console.WriteLine("You are a geringverdiener!");
+        Console.WriteLine("[Is Richer] - You are a geringverdiener!");
+    }
+}
+
+void HighestNumOfTwo(int a, int b)
+{
+    if (a > b)
+    {
+        Console.WriteLine("[Highest Num of Two] - Number A is larger than B | A: " + a + " B: " + b);
+    }
+    else if (a == b)
+    {
+        Console.WriteLine("[Highest Num of Two] - Number A and B are the same | A: " + a + " B: " + b);
+    }
+    else
+    {
+        Console.WriteLine("[Highest Num of Two] - Number B is larger than A | A: " + a + " B: " + b);
+    }
+}
+
+void HighestNumOfThree(int a, int b, int c)
+{
+    if (a > b && a > c)
+    {
+        Console.WriteLine("[Highest Num of Three] - Number A is larger than B and C | A: " + a + " B: " + b + " C: " + c);
+    }
+    else if (b > a && b > c)
+    {
+        Console.WriteLine("[Highest Num of Three] - Number B is larger than A and C | A: " + a + " B: " + b + " C: " + c);
+    }
+    else if (c > b && c > a)
+    {
+        Console.WriteLine("[Highest Num of Three] - Number C is larger than A and B | A: " + a + " B: " + b + " C: " + c);
+    }
+    else if (a == b && a == c)
+    {
+        Console.WriteLine("[Highest Num of Three] - Number A, B and C are the same | A: " + a + " B: " + b + " C: " + c);
     }
 }
