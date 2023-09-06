@@ -10,6 +10,10 @@ int a = 8;
 int b = 9;
 int c = 7;
 
+//age calc
+int currentYear = 2023;
+int birthYear = 2002;
+
 
 Awawa(name);
 AddCalculator(a, b);
@@ -19,7 +23,10 @@ DivideCalculator(a, b);
 IsRich(50);
 HighestNumOfTwo(a, b);
 HighestNumOfThree(a, b, c);
-
+HalfNumber(32);
+Percentage(30f, 50f);
+ScorePlayer(7,2);
+AgeCalc(currentYear, birthYear);
 void Awawa(string textToSay)
 {
     Console.WriteLine(textToSay);
@@ -94,18 +101,57 @@ void HighestNumOfThree(int a, int b, int c)
 {
     if (a > b && a > c)
     {
-        Console.WriteLine("[Highest Num of Three] - Number A is larger than B and C | A: " + a + " B: " + b + " C: " + c);
+        Console.WriteLine(
+            "[Highest Num of Three] - Number A is larger than B and C | A: " + a + " B: " + b + " C: " + c);
     }
     else if (b > a && b > c)
     {
-        Console.WriteLine("[Highest Num of Three] - Number B is larger than A and C | A: " + a + " B: " + b + " C: " + c);
+        Console.WriteLine(
+            "[Highest Num of Three] - Number B is larger than A and C | A: " + a + " B: " + b + " C: " + c);
     }
     else if (c > b && c > a)
     {
-        Console.WriteLine("[Highest Num of Three] - Number C is larger than A and B | A: " + a + " B: " + b + " C: " + c);
+        Console.WriteLine(
+            "[Highest Num of Three] - Number C is larger than A and B | A: " + a + " B: " + b + " C: " + c);
     }
     else if (a == b && a == c)
     {
-        Console.WriteLine("[Highest Num of Three] - Number A, B and C are the same | A: " + a + " B: " + b + " C: " + c);
+        Console.WriteLine("[Highest Num of Three] - Number A, B and C are the same | A: " + a + " B: " + b + " C: " +
+                          c);
     }
+}
+
+void HalfNumber(float num)
+{
+        float sum = num / 2;
+        Console.WriteLine("[HalfNum] - The half of " + num + " is " + sum + ".");
+}
+
+void Percentage(float percentage, float num)
+{
+        float realPercentage = percentage / 100;
+        float sum = realPercentage * num;
+
+        Console.WriteLine("[Percentage] - " + percentage + "% of " + num + " is " + sum);
+}
+
+void ScorePlayer(int a, int b)
+{
+    if (a > b)
+    {
+        Console.WriteLine("[Score Player] - Spieler 1 hat gewonnen");
+    }
+    else
+    {
+        Console.WriteLine("[Score Player] - Spieler 2 hat gewonnen");
+    }
+}
+
+void AgeCalc(int a, int b)
+{
+    int age = a - b;
+    
+    Console.WriteLine("[Age calc] - You are " + age + " years old");
+    
+    
 }
