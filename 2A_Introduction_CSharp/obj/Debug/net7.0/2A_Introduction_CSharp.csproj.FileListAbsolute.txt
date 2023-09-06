@@ -1,0 +1,14 @@
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\bin\Debug\net7.0\2A_Introduction_CSharp.exe
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\bin\Debug\net7.0\2A_Introduction_CSharp.deps.json
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\bin\Debug\net7.0\2A_Introduction_CSharp.runtimeconfig.json
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\bin\Debug\net7.0\2A_Introduction_CSharp.dll
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\bin\Debug\net7.0\2A_Introduction_CSharp.pdb
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\2A_Introduction_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\2A_Introduction_CSharp.AssemblyInfoInputs.cache
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\2A_Introduction_CSharp.AssemblyInfo.cs
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\2A_Introduction_CSharp.csproj.CoreCompileInputs.cache
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\2A_Introduction_CSharp.dll
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\refint\2A_Introduction_CSharp.dll
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\2A_Introduction_CSharp.pdb
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\2A_Introduction_CSharp.genruntimeconfig.cache
+D:\UnityProjects\Semester 2\HTK-CSharpIntro\2A_Introduction_CSharp\2A_Introduction_CSharp\obj\Debug\net7.0\ref\2A_Introduction_CSharp.dll
