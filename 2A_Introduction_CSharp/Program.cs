@@ -129,10 +129,9 @@ void HalfNumber(float num)
 
 void Percentage(float percentage, float num)
 {
-        float realPercentage = percentage / 100;
-        float sum = realPercentage * num;
+    float sum = (num / 100) * percentage;
 
-        Console.WriteLine("[Percentage] - " + percentage + "% of " + num + " is " + sum);
+    Console.WriteLine("[Percentage] - " + percentage + "% of " + num + " is " + sum);
 }
 
 void ScorePlayer(int a, int b)
